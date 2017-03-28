@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dicodingac.app.samplefragmentusage.Fragment.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt_first_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hola Ini Firast Fragment"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_first_fragment"
+        android:text="Ke Second Fragment"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_first_fragment"
+        />
+
+</RelativeLayout>
